@@ -6,7 +6,7 @@
 # a) Escribir un programa que indique la clasificación de una nota.
 nota = int(input("Ingrese la nota "));
 clasificacion = "Reprobado";
-if nota >=4 and nota <= 6 :
+if nota >=4 and nota < 7 :
     clasificacion = "Debe rendir examen final";
 
 if nota >= 7 :
