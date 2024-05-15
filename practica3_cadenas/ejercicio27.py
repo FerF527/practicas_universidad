@@ -7,7 +7,6 @@
 palabra = input("Ingrese un texto ")
 largo = len(palabra)
 
-#espacios iniciales 
 for i in range(0,largo + 4) :
     print("*",end="")
 print("\n* " + palabra + " *")
