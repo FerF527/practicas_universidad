@@ -15,9 +15,9 @@ def libre_de_cuadrados(num) :
     return es_libre_de_cuadrados
 
 # prueba
-numero = int(input("Ingrese un número entero "))
-es_libre_de_cuadrados = libre_de_cuadrados(numero)
-if es_libre_de_cuadrados :
-    print(numero,"es libre de cuadrados.")
-else :
-    print(numero,"no es libre de cuadrados.")
+# numero = int(input("Ingrese un número entero "))
+# es_libre_de_cuadrados = libre_de_cuadrados(numero)
+# if es_libre_de_cuadrados :
+#     print(numero,"es libre de cuadrados.")
+# else :
+#     print(numero,"no es libre de cuadrados.")

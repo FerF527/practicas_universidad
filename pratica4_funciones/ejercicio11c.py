@@ -11,9 +11,9 @@ def num_abundante(num) :
     return False
 
 # prueba
-numero = int(input("Ingrese un número entero "))
-es_abundante = num_abundante(numero)
-if es_abundante :
-    print(numero,"es abundante.")
-else :
-    print(numero,"no es abundante.")
+# numero = int(input("Ingrese un número entero "))
+# es_abundante = num_abundante(numero)
+# if es_abundante :
+#     print(numero,"es abundante.")
+# else :
+#     print(numero,"no es abundante.")

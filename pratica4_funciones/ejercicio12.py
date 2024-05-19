@@ -19,9 +19,9 @@ def num_poderoso(num) :
     return es_poderoso
 
 # prueba
-numero = int(input("Ingrese un número entero "))
-es_poderoso = num_poderoso(numero)
-if es_poderoso :
-    print(numero,"es poderoso.")
-else :
-    print(numero,"no es poderoso.")
+# numero = int(input("Ingrese un número entero "))
+# es_poderoso = num_poderoso(numero)
+# if es_poderoso :
+#     print(numero,"es poderoso.")
+# else :
+#     print(numero,"no es poderoso.")

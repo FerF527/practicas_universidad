@@ -12,4 +12,4 @@ def factores_primos(num) :
                 print(i,"es factor de",num,"y es un número primo")
     
 # prueba
-factores_primos(8)
+# factores_primos(8)
