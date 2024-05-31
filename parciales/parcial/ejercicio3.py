@@ -7,8 +7,8 @@ def patentesSinDeuda(patentes,deuda):
         contador += 1
     return patentesSinDeuda
 
-# Ejemplo de uso
+
 patentes = ["AF238CE", "AC123NE", "AD534FA", "AB871MN"]
 deudas = [45725.87, 0, 42711.15, 0]
-patentesSinDeuda = patentesSinDeuda(patentes, deudas)
-print(f"Las patentes sin deuda son: {patentesSinDeuda}")
+ProgramaNuevo = patentesSinDeuda(patentes, deudas)
+print("Las patentes sin deuda son:",ProgramaNuevo)
