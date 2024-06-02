@@ -1,4 +1,4 @@
-##programa principal 
+##programa principal ejercicio 9
 from ejercicio9 import maximo
 lista=[1,2,3,4]
 programa=maximo(lista)
