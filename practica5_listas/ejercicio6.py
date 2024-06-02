@@ -6,10 +6,5 @@ def chequeoRepetido(lista):
         if elemento not in newlist:
             newlist.append(elemento)
         else:
-            return False
-    return True
-
-
-#programa principal
-list=["a","b","c","a"]
-print(chequeoRepetido(list))
+            return True
+    return False

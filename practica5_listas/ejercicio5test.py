@@ -3,6 +3,6 @@ numero = 4
 lista = [2,1,4]
 todosFactores = sonFactores(numero,lista)
 if(todosFactores) :
-    print("Los números",lista,"son factores de",numero)
+    print("Todos los números en la lista",lista,"son factores de",numero)
 else :
-    print("Los números",lista,"no son factores de",numero)
+    print("No todos los números en la lista",lista,"no son factores de",numero)
