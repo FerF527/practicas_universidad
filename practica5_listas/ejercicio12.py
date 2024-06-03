@@ -6,3 +6,8 @@ def intercambiar(s,a,b) :
     aux = s[a]
     s[a] = s[b]
     s[b] = aux
+#     return s
+# s = [1,2,3,4,5]
+# a = 0
+# b = 4
+# print(intercambiar(s,a,b))
