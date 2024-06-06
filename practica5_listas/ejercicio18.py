@@ -15,4 +15,4 @@ def return_cousins(n):
 
 n=int(input("input a number"))
 program=return_cousins(n)
-print("los primeros numbers primos de:",n," son:",program)
+print("los primeros numbers primos de:",n," son:",program) 
