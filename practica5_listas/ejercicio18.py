@@ -1,18 +1,18 @@
-# Definir una función que tome un entero n y devuelva los primeros n primos.
-def es_primo(n):
+# Define a function que tome un integer n y return los primeros n primos.
+def is_cousin(n):
     for i in range(2,n):
         if n%i==0:
             return False
     return True
         
-def devolverprimos(n):
+def return_cousins(n):
     primos=[1]
     for i in range(2,n):
-        if es_primo(i):
+        if is_cousin(i):
             primos.append(i)
     return primos 
     
 
-n=int(input("ingrese un numero"))
-programa=devolverprimos(n)
-print("los primero numeros primos de:",n," son:",programa)
+n=int(input("input a number"))
+program=return_cousins(n)
+print("los primeros numbers primos de:",n," son:",program)
